@@ -1,0 +1,55 @@
+=== BUILD INFORMATION ===
+Data: 31 de Janeiro de 2026
+Projeto: johnatamoreira
+Versão: 6f191ac1
+
+ARQUIVOS DE BUILD:
+- dist/public/index.html (368.69 kB)
+- dist/public/assets/index-DEg1Vhn_.css (124.17 kB)
+- dist/public/assets/index-mHGp-hht.js (1,476.98 kB)
+- dist/index.js (servidor Node.js)
+
+TAMANHO TOTAL:
+- Não comprimido: ~2.0 MB
+- Comprimido (gzip): ~468 kB
+
+TECNOLOGIAS:
+- React 19
+- Tailwind CSS 4
+- Framer Motion
+- TypeScript
+- Vite (build tool)
+
+FEATURES:
+✅ Dark Mode elegante
+✅ Bento Grid Layout
+✅ Animações Framer Motion
+✅ Notion CMS integrado
+✅ SEO otimizado
+✅ Responsivo (Mobile + Desktop)
+✅ Performance otimizada
+
+VARIÁVEIS DE AMBIENTE NECESSÁRIAS:
+- VITE_NOTION_API_KEY (opcional, para Notion CMS)
+- VITE_NOTION_DATABASE_ID (opcional, para Notion CMS)
+
+PORTA: 3000 (padrão)
+
+COMO RODAR:
+npm install --production
+node dist/index.js
+
+OU com PM2:
+pm2 start dist/index.js --name "johnatamoreira"
+
+PARA DESENVOLVIMENTO:
+pnpm dev
+
+PARA BUILD:
+pnpm build
+
+DOCUMENTAÇÃO:
+- DEPLOY_VPS.md - Guia completo de deploy
+- DEPLOY_QUICK.md - Deploy em 5 minutos
+- NOTION_SETUP.md - Configurar Notion CMS
+- NOTION_QUICK_START.md - Quick start Notion
